@@ -1,0 +1,24 @@
+.page-header {
+    color: #2E2F42;
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+
+}
+.logo {
+    color: #4D5AE5;
+    width: 115px;
+    height: 24px;
+    left: 156px;
+    top: 24px;
+}
+.site-nav {}
+.address {}
+.block {}
+.button {}
+.specifics {}
+.what-we-doing {}
+.team {}
+.page-footer {}
+.filters {}
+.projects {}
