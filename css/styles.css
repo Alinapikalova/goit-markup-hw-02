@@ -1,24 +1,89 @@
+/*
+main color Navy blue #2E2F42
+ color logo Iris #4D5AE5
+ color contacts Slate #434455
+ color top line Cornflower #E7E9FC
+ background color main White #FFFFFF 
+ color whatwedoing 4D5AE5
+ color granica i text footer: Cornflower
+ background images: #E5E5E5;
+ background team, color footer Cloud
+ color filters Ocean
+ color finger line Black #00000
+
+
+*/
 .page-header {
     color: #2E2F42;
-    position: absolute;
-    width: 1440px;
-    height: 72px;
-
+    background-color: antiquewhite;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+body {
+    text-decoration: none;
 }
 .logo {
     color: #4D5AE5;
-    width: 115px;
-    height: 24px;
-    left: 156px;
-    top: 24px;
+    text-decoration: none;
+    
 }
-.site-nav {}
-.address {}
-.block {}
-.button {}
-.specifics {}
-.what-we-doing {}
-.team {}
-.page-footer {}
-.filters {}
-.projects {}
+.site-nav {
+    color: blue;
+    background-color: antiquewhite;
+    text-decoration: none;
+}
+.address {
+    color: #4D5AE5;
+    background-color: antiquewhite;
+    text-decoration: none;
+}
+.block {
+    background-color: black;
+    color: aliceblue;
+}
+.button {
+    color: red;
+    background-color: aquamarine;
+}
+.button:hover {
+    color: blue;
+    background-color: beige;
+}
+.button:active {
+    color: blueviolet;
+    background-color: brown;
+}
+.specifics {
+    color: black;
+    background-color: gray;
+}
+.what-we-doing {
+    color: black;
+    background-color: darkgray;
+}
+.team {
+    color: #2E2F42;
+    background-color: goldenrod;
+}
+.page-footer {
+    color: #2E2F42;
+    background-color: antiquewhite;
+}
+.filters {
+    color: black;
+    background-color: coral;
+}
+.filters:hover {
+    color: blue;
+    background-color: beige;
+}
+.filters:active {
+    color: crimson;
+    background-color: blue;
+}
+.projects {
+    color: black;
+    background-color: whitesmoke;
+}
