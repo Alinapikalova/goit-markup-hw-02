@@ -5,7 +5,7 @@ main color Navy blue #2E2F42
  color top line Cornflower #E7E9FC
  background color main White #FFFFFF 
  color whatwedoing 4D5AE5
- color granica i text footer: Cornflower
+ color granica i text footer: Cornflower #E7E9FC
  background images: #E5E5E5;
  background team, color footer Cloud
  color filters Ocean
@@ -15,8 +15,10 @@ main color Navy blue #2E2F42
 */
 .page-header {
     color: #2E2F42;
-    background-color: antiquewhite;
+    background-color: #FFFFFF;
     text-decoration: none;
+    border-style: solid;
+    border-color: #E7E9FC;
 }
 ul {
     list-style: none;
@@ -24,35 +26,54 @@ ul {
 body {
     text-decoration: none;
 }
-.logo {
-    color: #4D5AE5;
+/*.logo {
+    color:#2E2F42;
     text-decoration: none;
     
+}*/
+.accent {
+    color:#4D5AE5;
+    text-decoration: none;
 }
 .site-nav {
-    color: blue;
-    background-color: antiquewhite;
+    color: #2E2F42;
+    background-color: #FFFFFF;
     text-decoration: none;
 }
 .address {
-    color: #4D5AE5;
-    background-color: antiquewhite;
+    color: #434455;
+    background-color: #FFFFFF;
     text-decoration: none;
+    
 }
 .block {
-    background-color: black;
-    color: aliceblue;
+    background-color: #2E2F42;
+    color: #FFFFFF;
+    width: 1440px;
+    height: 600px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
 }
 .button {
-    color: red;
-    background-color: aquamarine;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    width: 169px;
+    height: 56px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
 }
 .button:hover {
     color: blue;
     background-color: beige;
 }
 .button:active {
-    color: blueviolet;
+    color: blue;
     background-color: brown;
 }
 .specifics {
@@ -68,8 +89,9 @@ body {
     background-color: goldenrod;
 }
 .page-footer {
-    color: #2E2F42;
-    background-color: antiquewhite;
+    color: #E7E9FC;
+    background-color:#2E2F42;
+    text-decoration: none;
 }
 .filters {
     color: black;
