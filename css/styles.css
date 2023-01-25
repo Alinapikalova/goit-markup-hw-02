@@ -7,7 +7,7 @@ main color Navy blue #2E2F42
  color whatwedoing 4D5AE5
  color granica i text footer: Cornflower #E7E9FC
  background images: #E5E5E5;
- background team, color footer Cloud
+ background team, color footer Cloud #F4F4FD
  color filters Ocean
  color finger line Black #00000
 
@@ -19,26 +19,58 @@ main color Navy blue #2E2F42
     text-decoration: none;
     border-style: solid;
     border-color: #E7E9FC;
+
 }
-ul {
-    list-style: none;
+.dots {
+    list-style: none; 
 }
 body {
-    text-decoration: none;
-}
-/*.logo {
     color:#2E2F42;
     text-decoration: none;
-    
-}*/
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+.logo-header {
+    color:#2E2F42;
+    text-decoration: none;
+    font-family: 'Releway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    align-items: center;  
+    letter-spacing: 0.03em;
+}
 .accent {
     color:#4D5AE5;
     text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    align-items: center;
+    letter-spacing: 0.03em;
 }
 .site-nav {
     color: #2E2F42;
     background-color: #FFFFFF;
     text-decoration: none;
+}
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: #404BBF;
+}
+.nav-link:active {
+    text-decoration: underline;
+    color: #404BBF;
 }
 .address {
     color: #434455;
@@ -46,64 +78,154 @@ body {
     text-decoration: none;
     
 }
+.contact-link {
+    color:#434455;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.02em;
+}
+.contact-link:active {
+    color: #404BBF;
+}
 .block {
     background-color: #2E2F42;
     color: #FFFFFF;
-    width: 1440px;
-    height: 600px;
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
+    line-height: 60px;
+    /* or 107% */
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 .button {
     color: #FFFFFF;
     background-color: #4D5AE5;
-    width: 169px;
-    height: 56px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 .button:hover {
-    color: blue;
-    background-color: beige;
+    color: #FFFFFF;
+    background-color:#404BBF;
 }
 .button:active {
-    color: blue;
-    background-color: brown;
+    color: #FFFFFF;
+    background-color:#404BBF;
 }
 .specifics {
-    color: black;
-    background-color: gray;
+    background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.specifics-element {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    letter-spacing: 0.02em;
+    /* SLATE */
+    color: #434455;
+
 }
 .what-we-doing {
-    color: black;
-    background-color: darkgray;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    /* identical to box height, or 111% */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    /* NAVY BLUE */
+    color: #2E2F42;
 }
 .team {
     color: #2E2F42;
-    background-color: goldenrod;
+    background-color: #F4F4FD;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    /* identical to box height, or 111% */
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.team-card {
+    color:#2E2F42;
+    background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+/* identical to .specifics-element*/
+.team-work {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    /* SLATE */
+    color: #434455;
 }
 .page-footer {
-    color: #E7E9FC;
     background-color:#2E2F42;
+    color: #E7E9FC;
     text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    letter-spacing: 0.02em;
 }
+.logo-footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #F4F4FD;
+}
+  /*like class .specifics-element, .team-work 
+.footer-text {
+    color: #E7E9FC;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+/*PRTFOLIO*/
 .filters {
-    color: black;
-    background-color: coral;
+    color:#4D5AE5;
+    background-color: #E7E9FC;
+    cursor: pointer;
 }
 .filters:hover {
-    color: blue;
-    background-color: beige;
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
 .filters:active {
-    color: crimson;
-    background-color: blue;
+    color: #FFFFFF;
+    background-color:#404BBF;
 }
 .projects {
     color: black;
