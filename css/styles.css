@@ -82,7 +82,7 @@ body {
 .address {
     color: var(--text-slate);
     background-color: var(--main-white);
-    
+    font-style: normal;
 }
 .contact-link {
     color: var(--text-slate);
