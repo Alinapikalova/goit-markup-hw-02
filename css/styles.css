@@ -75,7 +75,7 @@ body {
 .nav-link:hover {
     color: var(--active-ocean);
 }
-.nav-link:active, .nav-link:focus {
+.nav-link:focus {
     text-decoration: underline;
     color: var(--active-ocean);
 }
@@ -95,7 +95,7 @@ body {
 .contact-link:hover {
     color: var(--active-ocean);
 }
-.contact-link:active, .contact-link:focus {
+.contact-link:focus {
     color: var(--active-ocean);
 }
 .block {
@@ -120,19 +120,17 @@ body {
 .button {
     color: var(--main-white);
     background-color: var(--logo-iris);
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
     cursor: pointer;
 }
 .button:hover {
     color: var(--main-white);
     background-color: var(--active-ocean);
 }
-.button:active, .button:focus {
+.button:focus {
     color: var(--main-white);
     background-color: var(--active-ocean);
 }
@@ -145,6 +143,20 @@ body {
     letter-spacing: 0.02em;
     color: var(--main-navy);
 }
+/*Add visually-hidden*/
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 .title {
     font-weight: 500;
     font-size: 20px;
@@ -234,6 +246,12 @@ body {
     /* or 150% */
 /*PoRTFOLIO*/
 .filters {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
     color: var(--logo-iris);
     background-color: var(--back-cloud);
     cursor: pointer;
@@ -243,7 +261,7 @@ body {
     color: var(--main-white);
     background-color: var(--active-ocean);
 }
-.filters:active, .filters:focus {
+.filters:focus {
     color: var(--main-white);
     background-color: var(--active-ocean);
 }
