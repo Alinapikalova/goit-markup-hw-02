@@ -1,18 +1,4 @@
-/*
-main color Navy blue #2E2F42
- color logo Iris #4D5AE5
- color contacts Slate #434455
- color top line Cornflower #E7E9FC
- background color main White #FFFFFF 
- color whatwedoing 4D5AE5
- color granica i text footer: Cornflower #E7E9FC
- background images: #E5E5E5;
- background team, color footer Cloud #F4F4FD
- color hover/active
- color finger line Black #00000
-
-
-*/
+/* --------------WEBSTUDIO-----------*/
 :root {
     --main-navy: #2E2F42;
     --text-slate: #434455;
@@ -22,11 +8,6 @@ main color Navy blue #2E2F42
     --back-cloud: #F4F4FD;
     --cornflower: #E7E9FC;
   }
-/*.page-header {
-    color: var(--main-navy);
-    border: 1px solid var(--cornflower); задано не вірно треба поправити на нижній в 3 дз
-
-}*/
 .dots {
     list-style: none; 
 }
@@ -45,9 +26,8 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
-    /* identical to box height, or 133% */
-    /*align-items: center;  */
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .accent {
     color: var(--logo-iris);
@@ -81,7 +61,6 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    /* identical to box height, or 150% */
     letter-spacing: 0.02em;
 }
 .contact-link:hover {
@@ -99,7 +78,6 @@ body {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    /* or 107% */
     letter-spacing: 0.02em;
 
 }
@@ -120,17 +98,9 @@ body {
     color: var(--main-white);
     background-color: var(--active-ocean);
 }
-/*.specifics {
-    background-color: var(--main-white);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--main-navy);
-}*/
 
 
-/*---------------Add visually-hidden----------------*/
+/*---Add visually-hidden--*/
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -155,50 +125,40 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-slate);
-
 }
-/*.what-we-doing {
+.title-section {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
-    color: var(--main-navy);
-    background-color: var(--main-white);
-}*/
+    text-transform: capitalize;
+}
 .team {
-    /*color: var(--main-navy);*/
     background-color: var(--back-cloud);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
 }
 .team-card {
     color: var(--main-navy);
     background-color: var(--main-white);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 0.02em;
 }
 .page-footer {
     background-color: var(--main-navy);
     color: var(--cornflower);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
+
 .logo-footer {
+    color: var(--back-cloud);
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.67;
     letter-spacing: 0.03em;
-    color: var(--back-cloud);
+    text-transform: uppercase;
+}
+.text-footer {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 
@@ -226,26 +186,20 @@ body {
 }
 .projects {
     color: var(--main-navy);
-    background-color: var(--main-white);
 
 }
 .project-card {
     background: var(--main-white);
-    /*color: var(--main-navy);*/
 }
 .project-title {
-    color: var(--main-navy);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    /* identical to box height, or 120% */
     letter-spacing: 0.02em;
 }
 .project-type {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-/* identical to box height, or 150% */
     letter-spacing: 0.02em;
     color: var(--text-slate);
 }
