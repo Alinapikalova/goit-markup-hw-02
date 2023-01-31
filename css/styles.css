@@ -22,12 +22,11 @@ main color Navy blue #2E2F42
     --back-cloud: #F4F4FD;
     --cornflower: #E7E9FC;
   }
-.page-header {
+/*.page-header {
     color: var(--main-navy);
-    background-color: var(--main-white);
-    border: 1px solid var(--cornflower);
+    border: 1px solid var(--cornflower); задано не вірно треба поправити на нижній в 3 дз
 
-}
+}*/
 .dots {
     list-style: none; 
 }
@@ -36,29 +35,22 @@ main color Navy blue #2E2F42
 }
 body {
     color: var(--main-navy);
+    background-color: var(--main-white);
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
 }
 .logo-header {
     color: var(--main-navy);
-    font-family: 'Releway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
     /* identical to box height, or 133% */
-    align-items: center;  
+    /*align-items: center;  */
     letter-spacing: 0.03em;
 }
 .accent {
     color: var(--logo-iris);
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.67;
-    /* identical to box height */
-    align-items: center;
-    letter-spacing: 0.03em;
 }
 .site-nav {
     color: var(--main-navy);
@@ -101,19 +93,13 @@ body {
 .block {
     background-color: var(--main-navy);
     color: var(--main-white);
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    /* or 107% */
     text-align: center;
-    letter-spacing: 0.02em;
 }
 .block-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     /* or 107% */
-    text-align: center;
     letter-spacing: 0.02em;
 
 }
@@ -134,16 +120,17 @@ body {
     color: var(--main-white);
     background-color: var(--active-ocean);
 }
-.specifics {
+/*.specifics {
     background-color: var(--main-white);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    /* identical to box height, or 120% */
     letter-spacing: 0.02em;
     color: var(--main-navy);
-}
-/*Add visually-hidden*/
+}*/
+
+
+/*---------------Add visually-hidden----------------*/
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -161,36 +148,30 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    /* identical to box height, or 120% */
     letter-spacing: 0.02em;
 }
 .text-element {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    /* or 150% */
     letter-spacing: 0.02em;
-    /* SLATE */
     color: var(--text-slate);
 
 }
-.what-we-doing {
+/*.what-we-doing {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    /* identical to box height, or 111% */
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--main-navy);
     background-color: var(--main-white);
-}
+}*/
 .team {
-    color: var(--main-navy);
+    /*color: var(--main-navy);*/
     background-color: var(--back-cloud);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    /* identical to box height, or 111% */
     text-align: center;
     letter-spacing: 0.02em;
 }
@@ -200,51 +181,29 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    /* identical to box height, or 120% */
     text-align: center;
     letter-spacing: 0.02em;
 }
-/* identical to .specifics-element*/
-/*.team-work {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--text-slate);
-}*/
 .page-footer {
     background-color: var(--main-navy);
     color: var(--cornflower);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    /* or 150% */
     letter-spacing: 0.02em;
 }
 .logo-footer {
-    font-family: 'Raleway';
-    font-style: normal;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.67;
-    /* identical to box height */
-    align-items: center;
     letter-spacing: 0.03em;
     color: var(--back-cloud);
 }
-  /*like class .specifics-element, .team-work 
-.footer-text {
-    color: #E7E9FC;
-    text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    /* or 150% */
-/*PoRTFOLIO*/
+
+
+/*--------------------PoRTFOLIO-----------------*/
+
 .filters {
     font-family: inherit;
     font-weight: 500;
@@ -272,10 +231,10 @@ body {
 }
 .project-card {
     background: var(--main-white);
-    border: 1px solid var(--cornflower);
-    color: var(--main-navy);
+    /*color: var(--main-navy);*/
 }
 .project-title {
+    color: var(--main-navy);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
